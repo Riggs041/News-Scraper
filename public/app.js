@@ -19,7 +19,6 @@ $(document).ready(function () {
 });
 
 
-
 // Whenever someone clicks a p tag
 $(document).on("click", "h2", function () {
     // Empty the notes from the note section
