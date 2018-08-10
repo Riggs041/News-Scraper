@@ -9,7 +9,7 @@ $(document).ready(function () {
             for (let i = 0; i < data.length; i++) {
                 $("#articles").append("<h2>" + data[i].title + "</h2>");
                 $("#articles").append("<a href='https://www.nhl.com" + data[i].link + "' target='_blank'>Go to the story</a>" + "<br><br>");
-                $("#articles").append("<button data-id='" + data[i]._id + "'id='saveArticle' class='btn'>Save Article</button>" + "<hr>");
+                $("#articles").append("<button data-id='" + data[i]._id + "'id='saveArticle' class='btn btn-primary btn-lg'>Save Article</button>" + "<hr>");
                 // console.log("data: " + data[i].title + data[i].link);
             }
         })

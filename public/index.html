@@ -14,12 +14,23 @@
     <style>
         body {
             background-color: gray;
+            background-image: url(https://thumbs.dreamstime.com/b/ice-background-13594561.jpg);
+            background-repeat: repeat;
             
         }
+
         #articles {
-            color: green;
+            color: red;
+            text-align: center;
+            font-size: 25px;
         }
-        
+
+        .jumbotron {
+            background-image: url("https://pre00.deviantart.net/ebd2/th/pre/f/2008/290/e/2/nhl_wallpaper_by_sim25_design.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            color: blue;
+        }
     </style>
 
 </head>
@@ -31,13 +42,13 @@
         <p class="lead">Get the latest NHL articles and click the link to visit the page to read the article.</p>
         <hr class="my-4">
         <p>Click the button to generate a list of new articles:</p>
-        
+
         <button class="btn btn-primary btn-lg" id="scraper">New Articles</button>
-        <!-- <img src="../assets/img/hockey.jpg" style="border-radius: 50%" height="200px" width="200px" class="responsive" alt="Mike Riggs"> -->
+
     </div>
 
     <div id="articles"></div>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
